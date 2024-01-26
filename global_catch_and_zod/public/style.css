@@ -1,0 +1,77 @@
+
+
+body{
+    background: #101010;
+}
+.images {
+    margin-top: 20px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #000;
+}
+.middel{
+    padding: 10px;
+   width: 105.311px;
+   height: 29.918px;
+   flex-shrink: 0;
+}
+p{
+    padding: 10px;
+    color: #d9d5d5;
+    font-family: "Maven Pro";
+    font-size: 25.641px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.last {
+    padding: 20px;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+}
+
+.outerDiv {
+   
+    justify-content: space-between;
+    display: flex;
+    border-radius: 20px;
+    background: #1D1D1D;
+    box-shadow: 0px 24px 62px 14px rgba(17, 17, 17, 0.32);
+}
+
+.para{
+    font: 24px;
+    height: 111px;
+    width: 559px;
+    margin-top: 27px;
+    margin-left: 130px;
+    color: #A9A9A9;
+}
+
+.buttonn{
+    background-color:#27AE60;
+    width: 241px;
+    height: 58px;
+    margin-top: 10px;
+    margin-left: 133px;
+    border-radius: 55px;
+}
+.innerDiv{
+    text-align: center;
+    width: 125px;
+    height: 37px;
+    padding-top:18px;
+    padding-bottom: 11px;
+    padding-left: 38px;
+    color:white;
+    
+}
+
+.vector{
+    width: 69.5px;
+    margin-top: 16px;
+    margin-left: 219px;
+}
