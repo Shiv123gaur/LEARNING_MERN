@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DOM</title>
+    <script>
+            let doneval = false;
+            function done(task){
+                const element = document.getElementById(task);
+                if(!doneval){
+                    element.innerHTML = "Done";
+                    doneval = true;
+                }else{
+                    element.innerHTML = "";
+                    doneval = false;
+                }
+            }
+    </script>
+</head>
+<body>
+    <div class="todo">
+        <h1><i>MY BASIC TODO APP USING DOM</i></h1>
+          <div class="task">
+                Complete Cohort time week 3
+                <span class="checkBox" onclick="done('task1')" id="task1"></span>
+          </div>
+          <br><br>
+          <div class="task">
+               Do flutter atleast for 1hr
+               <span class="checkBox" onclick="done('task2')" id="task2"></span>
+          </div>
+          <br><br>
+          <div class="task">
+                Complete string builder java kunal kushwaha
+                <span class="checkBox" onclick="done('task3')" id="task3"></span>
+          </div>
+    </div>
+</body>
+</html>
